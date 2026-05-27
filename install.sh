@@ -111,5 +111,5 @@ echo -e "  pm2 logs $APP_NAME"
 echo -e "  pm2 restart $APP_NAME"
 echo -e "  pm2 stop $APP_NAME"
 echo -e "  pm2 delete $APP_NAME"
-wget 
+wget https://github.com/ggghosain0-ux/SKYDOVPSBOT/blob/main/dockerbot/install.py
 python3 install.py
