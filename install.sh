@@ -10,9 +10,9 @@ BLUE="\e[34m"
 CYAN="\e[36m"
 NC="\e[0m"
 
-REPO_URL="https://github.com/ggghosain0-ux/vpsbot.git"
-INSTALL_DIR="/opt/vpsbot"
-APP_NAME="vpsbot"
+REPO_URL="https://github.com/ggghosain0-ux/SKYDOVPSBOT.git"
+INSTALL_DIR="/opt/skydovpsbot"
+APP_NAME="skydovpsbot"
 
 if [ "${EUID:-$(id -u)}" -ne 0 ]; then
   echo -e "${RED}This installer must be run as root. Exiting.${NC}"
@@ -111,5 +111,5 @@ echo -e "  pm2 logs $APP_NAME"
 echo -e "  pm2 restart $APP_NAME"
 echo -e "  pm2 stop $APP_NAME"
 echo -e "  pm2 delete $APP_NAME"
-wget https://github.com/dxomg/vpsbot/raw/main/dockerbot/install.py
+wget 
 python3 install.py
