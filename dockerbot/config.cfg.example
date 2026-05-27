@@ -1,10 +1,12 @@
 [discord]
 token = YOUR_BOT_TOKEN_HERE
-guild_id =  # optional: restrict commands to a test guild ID (leave blank to enable globally)
+guild_id =
 
 [admin]
 # Comma-separated Discord user IDs who can control VPSes
 admins = 123456789012345678
+# Optional: a Discord role ID that grants admin privileges (takes precedence)
+admin_role_id =
 
 [docker]
 # Default Docker image pull timeout seconds
@@ -32,4 +34,3 @@ default_days = 7
 default_hours = 0
 # Cleanup expired VPS records and containers every N seconds. Set to 0 to disable.
 cleanup_interval_seconds = 600
-

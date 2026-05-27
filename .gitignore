@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+.vscode/
+*.log
+.venv/
+venv/
+logs/
+Dockerfile
+docker-compose*.yml
